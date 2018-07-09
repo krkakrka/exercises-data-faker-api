@@ -1,4 +1,6 @@
+const path = require('path');
 const { commerce, random, lorem } = require('faker');
+const { NAME } = require(path.resolve(__dirname, 'constants'));
 
 const generateSelected = () => {
   const { productName, price, color } = commerce;
@@ -24,7 +26,7 @@ const generateSelected = () => {
 };
 
 const routes = app => {
-  app.get('/selected', function(req, res, next) {
+  app.get(`/${NAME}/selected`, function(req, res, next) {
     res.json(generateSelected());
   });
 };
