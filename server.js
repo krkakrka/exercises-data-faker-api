@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const routes = require('./routes');
 
 const app = express();
+const port = process.env.PORT || 8003;
+
 app.use(bodyParser.json());
 app.use(
   bodyParser.urlencoded({
@@ -12,8 +14,8 @@ app.use(
 );
 
 const startListening = () =>
-  app.listen(3000, () => {
-    console.log('Server running @ http://127.0.0.1:3000/');
+  app.listen(port, () => {
+    console.log(`Server running @ http://127.0.0.1:${port}/`);
   });
 
 const init = () => {
