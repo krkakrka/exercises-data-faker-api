@@ -5,9 +5,11 @@ const generateTranslations = require(resolve(
   __dirname,
   'generateTranslations'
 ));
+const getMeme = require(resolve(__dirname, 'getMeme'));
 
 module.exports = {
   generateSelected,
   generateTranslations,
   generatePartyGuests,
+  getMeme,
 };

@@ -4,6 +4,7 @@ const {
   generateSelected,
   generateTranslations,
   generatePartyGuests,
+  getMeme,
 } = require(path.resolve(__dirname, 'utils'));
 
 const routes = app => {
@@ -17,6 +18,8 @@ const routes = app => {
   app.get(`/${NAME}/wedding`, (req, res) =>
     res.json(generatePartyGuests('plusOne'))
   );
+
+  app.get(`/${NAME}/meme`, (req, res) => res.json(getMeme()));
 };
 
 module.exports = routes;

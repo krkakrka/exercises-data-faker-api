@@ -2,7 +2,7 @@ const { commerce, random, lorem } = require('faker');
 
 const generateSelected = () => {
   const { productName, price, color } = commerce;
-  const { uuid, boolean } = random;
+  const { uuid, boolean, number } = random;
   const { paragraph } = lorem;
 
   const result = [...Array(50)].map(() => {
@@ -17,6 +17,7 @@ const generateSelected = () => {
       description: paragraph(),
       price: `$${price()}`,
       color: color(),
+      stock: number({ max: 3, min: 0 }),
     };
   });
 
