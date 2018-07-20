@@ -1,4 +1,4 @@
-const { commerce, random, lorem } = require('faker');
+const { commerce, random, lorem } = require("faker");
 
 const generateSelected = () => {
   const { productName, price, color } = commerce;
@@ -8,7 +8,7 @@ const generateSelected = () => {
   const result = [...Array(50)].map(() => {
     const name = productName();
     const timeStamp = new Date().getTime();
-    const id = `${name.replace(/ /g, '')}${uuid()}${timeStamp}`;
+    const id = `${name.replace(/ /g, "")}${uuid()}${timeStamp}`;
 
     return {
       name,
@@ -17,7 +17,7 @@ const generateSelected = () => {
       description: paragraph(),
       price: `$${price()}`,
       color: color(),
-      stock: number({ max: 3, min: 0 }),
+      stock: number({ max: 5, min: 0 })
     };
   });
 

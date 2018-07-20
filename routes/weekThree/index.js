@@ -20,6 +20,10 @@ const routes = app => {
   );
 
   app.get(`/${NAME}/meme`, (req, res) => res.json(getMeme()));
+
+  app.post(`/${NAME}/test-post`, (req, res) =>
+    res.json({ success: true, token: 'random-token' })
+  );
 };
 
 module.exports = routes;
