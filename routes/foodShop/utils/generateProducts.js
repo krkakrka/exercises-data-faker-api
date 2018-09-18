@@ -4,21 +4,19 @@ const generateProducts = () => {
   const { price } = commerce;
   const { currencySymbol, currencyCode } = finance;
   const { uuid } = random;
-  const { paragraph, sentence } = lorem;
+  const { paragraph, words } = lorem;
 
   const result = [...Array(30)].map(() => {
     const timeStamp = new Date().getTime();
-    const id = `${name.replace(/ /g, "")}${uuid()}${timeStamp}`;
-    const price = price();
-    const currencySymbol = currencySymbol();
+    const id = `${uuid()}${timeStamp}`;
 
     return {
-      name: sentence(),
+      name: words(),
       id,
       image: "https://lorempixel.com/400/400/food/",
       description: paragraph(),
       price: price(),
-      currencySymbol,
+      currencySymbol: currencySymbol(),
       currency: currencyCode()
     };
   });
