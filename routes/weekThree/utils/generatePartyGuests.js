@@ -2,14 +2,22 @@ const { name, random } = require('faker');
 const { firstName, lastName } = name;
 const { uuid, boolean } = random;
 const myStudents = [
-  'Jonas Palačionis',
-  'Kristapas Sirgėdas',
-  'Evaldas Černiauskas',
-  'Germantas Stasytis',
-  'Sergej Gorbaševskij',
-  'Vytautas Žiliukas',
-  'Jevgenija Sinkevič',
-  'Martynas Bušinskas',
+  'Žygimantas Tveraga',
+  'Kristupas Lapeika',
+  'Ernestas Židokas',
+  'Paulius Ruikis',
+  'Mantas Barkauskas',
+  'Modestas Zauka',
+  'Sandra Saukaite',
+  'Vytautas Tenys',
+  'Tautvydas Rudis',
+  'Aistė Vizgirdaitė',
+  'Agnė Verseckaitė',
+  'Karolina Pečiukonytė',
+  'Simonas Keršulis',
+  'Arnas Austinskas',
+  'Pavel Sucharev',
+  'Lukas Cechanavičius',
 ];
 
 const generatePartyGuests = key => {
