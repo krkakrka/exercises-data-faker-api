@@ -141,7 +141,7 @@
     "description": "Cumque et voluptas id voluptatem aliquid quis omnis aut iste. Iure modi sequi aut ut optio iste esse cum quis. Veritatis omnis maiores et necessitatibus facilis et porro at. Fugiat nulla aut rerum illo rerum omnis architecto.",
     "price": "12.00",
     "currencySymbol": "$",
-    "currency": "NPR"
+    "currency": "USD"
   },
   {
     "name": "fugiat hic sequi",
@@ -168,7 +168,7 @@
     "description": "Rerum deleniti ut maxime eius eos ea dolorum. Quaerat sequi facere quia. Quia qui consectetur provident a praesentium repudiandae. Quis doloremque qui ipsam ea eligendi perferendis quaerat. Voluptatem eum facilis cumque qui a nobis rerum qui praesentium.",
     "price": "498.00",
     "currencySymbol": "$",
-    "currency": "MGA"
+    "currency": "USD"
   },
   {
     "name": "qui occaecati enim",
@@ -177,7 +177,7 @@
     "description": "Quos quo ratione facilis qui sint deserunt id. Repellat ut nihil vero incidunt maiores autem labore voluptas. Natus voluptatem voluptatem qui voluptatem excepturi est ut. Enim quis ex id ut culpa. Unde totam aut quo.",
     "price": "195.00",
     "currencySymbol": "$",
-    "currency": "XPD"
+    "currency": "USD"
   },
   {
     "name": "placeat voluptatum molestiae",
@@ -195,7 +195,7 @@
     "description": "Omnis est quia ipsam. Accusamus odit debitis occaecati porro facilis sed. Dolor quo expedita nihil eum rerum possimus et quidem. Sequi voluptas aspernatur ducimus aspernatur. Tempore aut odio labore qui neque tempora aut. Distinctio dolores quod sapiente.",
     "price": "229.00",
     "currencySymbol": "$",
-    "currency": "XAG"
+    "currency": "USD"
   },
   {
     "name": "corrupti ab aliquid",
@@ -222,7 +222,7 @@
     "description": "Eum fuga delectus hic. Similique delectus aut velit aut voluptatem maiores sed sit pariatur. Quibusdam dolores ipsa sed et sed. Perspiciatis non voluptatum dolorum qui inventore sed id rem.",
     "price": "833.00",
     "currencySymbol": "$",
-    "currency": "HRK"
+    "currency": "USD"
   },
   {
     "name": "labore sit velit",
@@ -249,7 +249,7 @@
     "description": "Et animi sit eum vel facilis doloremque autem cum. Culpa eum rem. Omnis doloribus sit et placeat nemo quisquam. Rerum et deleniti quia vero.",
     "price": "251.00",
     "currencySymbol": "$",
-    "currency": "MVR"
+    "currency": "USD"
   },
   {
     "name": "consectetur quibusdam odio",
@@ -258,7 +258,7 @@
     "description": "Eius possimus illo voluptates consequatur veritatis temporibus itaque. Non magnam est eum quia cupiditate omnis quae sint laudantium. Velit culpa inventore vel dignissimos sint in sapiente sint est. Eos omnis et eum. Voluptates neque ducimus aut possimus quia nemo excepturi voluptatem non. Qui error architecto aspernatur molestias exercitationem dolores quam.",
     "price": "19.00",
     "currencySymbol": "$",
-    "currency": "LKR"
+    "currency": "USD"
   },
   {
     "name": "at necessitatibus occaecati",
@@ -267,6 +267,6 @@
     "description": "Ab ea rerum qui sint voluptas quasi illum. Repellendus magnam aut vero. Adipisci id neque.",
     "price": "838.00",
     "currencySymbol": "$",
-    "currency": "BGN"
+    "currency": "USD"
   }
 ]
